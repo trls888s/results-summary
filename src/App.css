@@ -41,6 +41,7 @@
 }
 
 .ts_div {
+  text-align: center;
   margin: 20px;
 }
 
@@ -73,13 +74,12 @@
 
 .info {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
   margin: 20px;
-  background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
-	width:307px;
-	height:41px;
-  border-radius: 20px;
+  border-radius: 12px;
+  width:288px;
+	height:56px;
 }
 
 .continue {
@@ -91,5 +91,30 @@
   background-color:rgba(74.0000031888485, 54.00000058114529, 242.00000077486038, 1);
 	width:307px;
 	height:41px;
-  border-radius: 20px;
+  border-radius: 12px;
+}
+
+.reaction { 
+  display: flex;
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+}
+
+.memory { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+}
+
+.verbal { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+}
+
+.visual { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+}
+
+.infologo {
+  text-align: start;
+}
+
+.infoscore {
+  text-align: end;
 }
