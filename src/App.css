@@ -43,6 +43,7 @@
 .ts_div {
   text-align: center;
   margin: 20px;
+  width: 300px;
 }
 
 .scorecircle { 
@@ -72,16 +73,6 @@
   border-radius: 20px;
 }
 
-.info {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin: 20px;
-  border-radius: 12px;
-  width:288px;
-	height:56px;
-}
-
 .continue {
   color: white;
   display: flex;
@@ -94,27 +85,54 @@
   border-radius: 12px;
 }
 
-.reaction { 
+
+.info {
   display: flex;
-	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px;
+  border-radius: 12px;
+  width:288px;
+	height:56px;
+}
+
+
+.reaction { 
+  color: #FF5555;
+	background-color: hsl(0, 100%, 97%);
 }
 
 .memory { 
-	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+  color: #FFB21E;
+	background-color:  hsl(39, 100%, 97%);
 }
 
 .verbal { 
-	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+  color:#00BB8F;
+	background-color:hsl(166, 100%, 97%);
 }
 
 .visual { 
-	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+  color: #1125D6;
+	background-color:hsl(234, 100%, 97%);
 }
 
 .infologo {
-  text-align: start;
+  margin-left: 20px;
+  text-align: left;
 }
 
 .infoscore {
-  text-align: end;
+  margin-right: 20px;
+  color: black;
+  text-align: right;
+}
+
+.summary {
+  margin-left: 20px;
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  width: 288px;
 }
